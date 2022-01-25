@@ -1,0 +1,1 @@
+$(function(){$("#menu-movil").hide(),$("#img-menu").click(function(){$("#menu-movil").show(),$("#menu-movil p span").click(function(){$("#menu-movil").hide()})})});

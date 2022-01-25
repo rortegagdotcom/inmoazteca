@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+	<head>
+		<title>Los mejores inmuebles de la ciudad est&aacute;n aqu&iacute; - InmoAzteca</title>
+		<meta name="author" content="Raul Ortega (InmoAzteca)">
+		<meta name="description" content="Pagina de inicio de InmoAzteca">
+		<meta name="keywords" content="inmoazteca, inmuebles, inmuebles valdepeñas, valdepenas, casas, pisos">
+		<meta charset="utf-8">
+        <link rel="icon" href="img/favicon-azteca.png">
+        <!-- Estilos CSS jQuery UI -->
+        <link rel="stylesheet" type="text/css" href="./css/jquery-ui.min.css">
+        <!-- Estilo principal de la pagina web -->
+		<link rel="stylesheet" type="text/css" href="./css/azteca.css">
+        <!-- Estilo barra de desplazamiento -->
+		<link rel="stylesheet" type="text/css" href="./css/scrollbars.css">
+        <!-- Resto de estilo de la pagina de inicio -->
+        <link rel="stylesheet" type="text/css" href="./css/index.css">
+        <!-- Estilo principal de la pagina web en movil -->
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 900px)" href="./css/m-azteca.css">
+        <!-- Resto de estilo de la pagina de inicio en movil-->
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 900px)" href="./css/m-index.css">
+        <!-- Estilo para que no se pueda imprimir la pagina web-->
+        <link rel="stylesheet" type="text/css" media="print" href="./css/print.css">
+        <!-- JQuery 3.4.0 -->
+        <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+        <!-- JQuery UI -->
+        <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+        <!-- Funcion de ampliar una imagen -->
+        <script type="text/javascript" src="js/ampliar-imagen.js"></script>
+        <!-- Funcion menu para movil -->
+        <script type="text/javascript" src="js/menu-movil.js"></script>
+        <!-- Funcion barra de progreso -->
+        <script type="text/javascript" src="js/barra-progreso.js"></script>
+        <!-- Funcion TABS JQuery UI -->
+        <script type="text/javascript" src="js/tabs-qs.js"></script>
+	</head>
+    
+	<body>
+        <div id="func-ampliar-img">
+            <p id="cerrar"><span id="boton-cerrar">X</span></p>
+            <div class="img-ampliado">
+                <img class="img-ampliado" src="">
+                <p></p>
+            </div>
+        </div>
+        <!-- Cabecera -->
+		<header>
+            <img id="img-menu" src="img/menu.png">
+			<a href="./index.html"><img src="./img/logo-azteca.png" alt="Logo InmoAzteca" /></a>
+		</header>
+        <div class="sticky">
+            <div class="contenedor-progreso">
+                <div class="barra-progreso" id="barra"></div>
+            </div>
+            <!-- Menu de navegacion -->
+            <nav class="menu">
+                <ul class="nav">
+                    <li><a href="index.html">Inico</a></li>
+                    <li><a href="#">Inmuebles</a>
+                        <ul>
+                            <li><a href="casas.html">Casas</a></li>
+                            <li><a href="pisos.html">Pisos</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html#quienes-somos">Quienes somos</a></li>
+                    <li><a href="index.html#contacto">Contacto</a></li>
+                    <li><a href="merch.html">Merchadising</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Menu de navegacion movil -->
+        <div id="menu-movil">
+            <p><span>X</span></p>
+            <nav>
+                <ul class="nav-movil">
+                    <li><a href="index.html">Inico</a></li>
+                    <li><a href="casas.html">Casas</a></li>
+                    <li><a href="pisos.html">Pisos</a></li>
+                    <li><a href="index.html#quienes-somos">Quienes somos</a></li>
+                    <li><a href="index.html#contacto">Contacto</a></li>
+                    <li><a href="merch.html">Merchadising</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Cuerpo -->
+        <div id="azte-cuerpo">
+            <img src="img/banner_azteca.png" alt="Banner">
+            <div id="inmuebles">
+                <h3>Inmuebles</h3>
+                <section id="casas">
+                    <h3><a href="casas.html">Ver casas</a></h3>
+                    <img src="img/casa1.jpg" alt="Casa1" class="ampliar">
+                    <p>Salón pequeño y comodo, amueblado, 2 baños y 2 dormitorios</p>
+                    <p class="precio">Precio: 200.000&euro;</p>
+                    <img src="img/casa2.jpg" alt="Casa2" class="ampliar">
+                    <p>Salón grande y un despacho grande. Amueblado. 2 baños y un dormitorio para gente que trabaja en casa</p>
+                    <p class="precio">Precio: 200.000&euro;</p>
+                    <img src="img/casa3.jpg" alt="Casa3" class="ampliar">
+                    <p>Salón grande, con un sofá negro, cocina al lado del salón, 1 baño y dos dormitorios</p>
+                    <p class="precio">Precio: 200.000&euro;</p>
+                </section>
+                <section id="pisos">
+                    <h3><a href="pisos.html">Ver pisos</a></h3>
+                    <img src="img/piso1.jpg" alt="Piso1" class="ampliar">
+                    <p>Salón grande y un despacho. Amueblado. 2 baños y dos dormitorios</p>
+                    <p class="precio">Precio: 200.000&euro;</p>
+                    <img src="img/piso2.jpg" alt="Piso2" class="ampliar">
+                    <p>Salón grande, amueblado, cocina moderna, patio de 20 metros cuadrados, 2 baños y tres dormitorios también amueblados.</p>
+                    <p class="precio">Precio: 200.000&euro;</p>
+                    <img src="img/piso3.jpg" alt="Piso3" class="ampliar">
+                    <p>Salón grande, con un sofá gris, cocina moderna, 2 baños y tres dormitorios</p>
+                    <p class="precio">Precio: 200.000&euro;</p>
+                </section>
+            </div>
+            <section id="quienes-somos">
+                <article>
+                    <h3>Qui&eacute;nes somos</h3>
+                    <p>"Un edificio tiene dos vidas. La que imagina su creador y la vida que tiene. Y no siempre son iguales"</p>
+                    <div id="tab-qs">
+                    	<ul>
+                    		<li><a href="#tab-video">Video</a></li>
+                    		<li><a href="#tab-plano">Plano de nuestra empresa</a></li>
+                    	</ul>
+                    	<div id="tab-video">
+                    		<iframe width="560" height="315" src="https://www.youtube.com/embed/hTw5Na4p2nI" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    	</div>
+                    	<div id="tab-plano">
+                    		<img id="plano" src="./img/plano_empresa_azteca.png" alt="Plano de la empresa">
+                    	</div>
+                    </div>
+                </article>
+            </section>
+            <section id="contacto">
+                <article>
+                	<h3>Cont&aacute;ctanos</h3>
+                	<p>Tel&eacute;fono: 920 33 14 33</p>
+                	<p>Fax: +34 800 456998</p>
+                	<p>Correo electrónico: raul_admin@laacademia.net</p>
+                	<a href="contacto.html"><p>Rellenar formulario</p></a>
+                	<br/>
+                	<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3111.154497794573!2d-3.3848686953674063!3d38.76016030090297!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1552395551790" width="600" height="450" style="border:0" allowfullscreen></iframe>
+                </article>
+            </section>
+        </div>
+        <!-- Pie de pagina -->
+		<footer>
+            <address>
+                <p><img src="img/icon/localizacion.png" alt="Localiad">&nbsp;Localidad: Valdepe&ntilde;as - Ciudad Real Domicilio: Calle Juanillo nº48</p>
+                <p><img src="img/icon/web.png" alt="Web">&nbsp;Web: inmoazteca.laacademiaval.es</p>
+                <p><img src="img/icon/usuario.png" alt="Persona responsable">&nbsp;Persona responsable: Ra&uacute;l Ortega Gallego</p>
+                <p><img src="img/icon/email.png" alt="Correo electrónico">&nbsp;Correo electrónico: raul_admin@laacademia.net</p>
+            </address>
+            <p><a href="encuesta.html">Val&oacute;ranos</a></p>
+            <p><img src="img/icon/facebook.png" alt="Facebook">&nbsp;<img src="img/icon/instagram.png" alt="Instagram">&nbsp;<img src="img/icon/twitter.png" alt="Twitter">&nbsp;<img src="img/icon/youtube.png" alt="Youtube"></p>
+            <p><span><a href="politicas/aviso-legal.html">Aviso legal</a></span>&nbsp;<span><a href="politicas/politica-privacidad.html">Pol&iacute;tica de privacidad</a></span>&nbsp;<span><a href="politicas/politica-cookies.html">Política de cookies</a></span>&nbsp;<span><a href="politicas/rpgd.html">RPGD</a></span></p>
+			<p class="copyright">&copy; InmoAzteca 2019</p>
+		</footer>
+	</body>
+    
+</html>

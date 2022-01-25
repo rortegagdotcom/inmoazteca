@@ -1,0 +1,1 @@
+function myFunction(){var a=document.body.scrollTop||document.documentElement.scrollTop,b=document.documentElement.scrollHeight-document.documentElement.clientHeight,c=a/b*100;document.getElementById("barra").style.width=c+"%"}window.onscroll=function(){myFunction()};
