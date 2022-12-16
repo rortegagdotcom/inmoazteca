@@ -8,24 +8,12 @@
 		<meta name="keywords" content="inmoazteca, inmuebles, inmuebles valdepeñas, valdepenas, casas, pisos">
 		<meta charset="utf-8">
         <link rel="icon" href="../img/favicon-azteca.png">
-        <!-- Estilo principal de la pagina web -->
 		<link rel="stylesheet" type="text/css" href="../css/azteca.css">
-        <!-- Estilo barra de desplazamiento -->
 		<link rel="stylesheet" type="text/css" href="../css/scrollbars.css">
-        <!-- Resto de estilo de la pagina de inicio -->
         <link rel="stylesheet" type="text/css" href="../css/contactophp.css">
-        <!-- Estilo principal de la pagina web en movil -->
         <link rel="stylesheet" type="text/css" media="screen and (max-width: 900px)" href="../css/m-azteca.css">
-        <!-- Resto de estilo de la pagina de inicio en movil-->
         <link rel="stylesheet" type="text/css" media="screen and (max-width: 900px)" href="../css/m-contactophp.css">
-        <!-- Estilo para que no se pueda imprimir la pagina web-->
         <link rel="stylesheet" type="text/css" media="print" href="../css/print.css">
-        <!-- JQuery 3.4.0 -->
-        <script type="text/javascript" src="../js/jquery-3.4.0.min.js"></script>
-        <!-- Funcion menu para movil -->
-        <script type="text/javascript" src="../js/menu-movil.js"></script>
-        <!-- Funcion barra de progreso -->
-        <script type="text/javascript" src="../js/barra-progreso.js"></script>
         <?php
             $nombre = $_GET['nombre'];
             $apellidos = $_GET['apellidos'];
@@ -36,7 +24,6 @@
 	</head>
     
 	<body>
-        <!-- Cabecera -->
 		<header>
             <img id="img-menu" src="../img/menu.png">
 			<a href="../index.html"><img src="../img/logo-azteca.png" alt="Logo InmoAzteca" /></a>
@@ -45,7 +32,6 @@
             <div class="contenedor-progreso">
                 <div class="barra-progreso" id="barra"></div>
             </div>
-            <!-- Menu de navegacion -->
             <nav class="menu">
                 <ul class="nav">
                     <li><a href="../index.html">Inico</a></li>
@@ -61,7 +47,6 @@
                 </ul>
             </nav>
         </div>
-        <!-- Menu de navegacion movil -->
         <div id="menu-movil">
             <p><span>X</span></p>
             <nav>
@@ -75,7 +60,6 @@
                 </ul>
             </nav>
         </div>
-        <!-- Cuerpo -->
         <div id="azte-cuerpo">
             <article>
                 <h1>Su formulario se ha enviado correctamente</h1>
@@ -94,7 +78,6 @@
                 <h3><a href="../index.html">Volver a Inicio</a></h3>
             </article>
         </div>
-        <!-- Pie de pagina -->
 		<footer>
             <address>
                 <p><img src="../img/icon/localizacion.png" alt="Localiad">&nbsp;Localidad: Valdepe&ntilde;as - Ciudad Real Domicilio: Calle Juanillo nº48</p>
@@ -107,7 +90,9 @@
             <p><span><a href="../politicas/aviso-legal.html">Aviso legal</a></span>&nbsp;<span><a href="../politicas/politica-privacidad.html">Pol&iacute;tica de privacidad</a></span>&nbsp;<span><a href="../politicas/politica-cookies.html">Política de cookies</a></span>&nbsp;<span><a href="../politicas/rpgd.html">RPGD</a></span></p>
 			<p class="copyright">&copy; InmoAzteca 2019</p>
 		</footer>
-        
+        <script type="text/javascript" src="../js/jquery-3.4.0.min.js"></script>
+        <script type="text/javascript" src="../js/menu-movil.js"></script>
+        <script type="text/javascript" src="../js/barra-progreso.js"></script>
 	</body>
     
 </html>
